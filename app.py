@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return ren
+    return "hello world"
 
 @app.route('/api/teams')
 def teams():
